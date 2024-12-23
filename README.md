@@ -7,6 +7,9 @@ This repository contains various small LangChain projects designed to help you u
 - **Simple Chatbot with Ollama**  
   A basic chatbot project that demonstrates the integration of LangChain with Ollama for conversational AI.
 
+- **LangServe Chatbot**  
+  A more advanced chatbot built using LangChain’s serve capabilities, integrating various models for a richer conversational experience.
+
 ## Getting Started
 
 Follow these steps to set up and run the projects:
