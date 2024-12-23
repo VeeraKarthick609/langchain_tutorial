@@ -1,15 +1,12 @@
+import os
+import sys; sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from langchain_core.prompts import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate
 from langchain_core.output_parsers import StrOutputParser # default output parser
 from langchain_community.llms import ollama
 
 import streamlit as st
-import os
-from dotenv import load_dotenv; load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
-
-
-# langsmith tracking
-os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
+from utils import load_env_variables; load_env_variables()
 
 # prompt template
 
