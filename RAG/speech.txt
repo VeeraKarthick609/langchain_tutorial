@@ -1,0 +1,2 @@
+**Description:**  
+This presentation explores the resource wastage associated with artificial intelligence, focusing on its environmental and economic impacts. It discusses the origin of the problem, reviews recent research, and highlights inefficiencies in AI systems, such as excessive energy consumption during model training. The presentation proposes sustainable solutions, including optimizing AI processes, using renewable energy for data centers, and prioritizing impactful AI applications to minimize resource wastage and promote eco-friendly innovation.
